@@ -65,12 +65,13 @@ RegisterNumber:25016997
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
+<img width="948" height="508" alt="Screenshot 2025-12-05 144845" src="https://github.com/user-attachments/assets/963baa25-46eb-4cfb-b2a0-beb48dd1e515" />
 
-[diagram.pdf](https://github.com/user-attachments/files/23957543/diagram.pdf)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-[output.pdf](https://github.com/user-attachments/files/23957550/output.pdf)
+<img width="1301" height="329" alt="Screenshot 2025-12-05 144902" src="https://github.com/user-attachments/assets/ad58be9a-5c6f-4a0d-85a8-12bdd307910b" />
+
 
 **RESULTS**
  Thus the RS flipflop using verilog and validating their functionality using their functional tables is implemented and verified
