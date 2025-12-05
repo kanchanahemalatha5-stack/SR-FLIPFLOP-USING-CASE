@@ -1,4 +1,5 @@
 # SR-FLIPFLOP-USING-CASE
+**DATE:05-12-2025**
 
 **AIM:**
 
@@ -37,12 +38,129 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 /* write all the steps invloved */
 
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+```
+Flip flop
+-------------------------------------------------
+// SR Flip-Flop (with async reset)
+module sr_ff (
+    input  wire clk, rst, S, R,
+    output reg  Q
+);
+    always @(posedge clk) begin
+        if (rst)
+            Q <= 1'b0;         // Reset
+        else begin
+            case ({S,R})
+                2'b00: Q <= Q;     // No change
+                2'b01: Q <= 1'b0;  // Reset
+                2'b10: Q <= 1'b1;  // Set
+                2'b11: Q <= 1'bx;  // Invalid
+            endcase
+        end
+    end
+endmodule
+```
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:Kanchana M
+RegisterNumber:25016997
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+[diagram.pdf](https://github.com/user-attachments/files/23957543/diagram.pdf)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
+[output.pdf](https://github.com/user-attachments/files/23957550/output.pdf)
 
 **RESULTS**
+ Thus the RS flipflop using verilog and validating their functionality using their functional tables is implemented and verified
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+
+ .
+ .
+ .
+
+ ..
+ .
+
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+
+ .
+ .
+ .
+ .
+ .
+
+ .
+ .
+ ..
+ .
+
+
+
+ .
+ .
+ ...
+
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ ,,
+
+ ,
+
+ .
+
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ ..
+
+ .
+ .
+ .
+ .
